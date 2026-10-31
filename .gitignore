@@ -1,0 +1,38 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated experimental CSV files
+results/*.csv
+
+# Keep publication figures
+!results/figures/
